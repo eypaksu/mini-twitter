@@ -39,8 +39,10 @@ example : http://localhost:8080/api/userListWithMostPopulerPair
 
 - Spring-Security Basic Authentication done for all api.Username is same and the password is "passoword" for each user.(username:batman, password:"passowd")
 - Please check also for lombok plugin in your IDE
- 
 
+![Alt text](/client-challenge/screen-shot/FrontendSS.PNG?raw=true "FrontEnd ScreenShot")
+ 
+![ScreenShot](https://raw.github.com/{eypaksu}/{mini-twitter}/{master}/{client-challenge/screen-shot/FrontendSS.PNG})
  
 
  

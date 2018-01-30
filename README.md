@@ -1,9 +1,9 @@
- #mini-twitter
+# mini-twitter
  The app including some basic functionalties similar twitter's
  
  Also you can check the http://localhost:8080/swagger-ui.html for api documentation
  
- #Endpoints
+# Endpoints
 - api/user/messages (GET) all messages by user's following list
 - api/user/messages/?search="" get messages with search param
 

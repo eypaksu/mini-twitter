@@ -32,9 +32,9 @@ example : http://localhost:8080/api/userListWithMostPopulerPair
 # Angular JS (5) Frontend
 - The client-challange calling /api/user/message 
 - to run frontend npm install && npm start 
+
 ![Alt text](/client-challenge/screen-shot/FrontendSS.PNG?raw=true "FrontEnd ScreenShot")
  
-
 
 # Testing
 
@@ -44,7 +44,7 @@ example : http://localhost:8080/api/userListWithMostPopulerPair
 # Notes
 
 - Spring-Security Basic Authentication done for all api.Username is same and the password is "passoword" for each user.(username:batman, password:"passowd")
-- Please check also for lombok plugin in your IDE
+- Please check also for lombok's plugin in your IDE I use mostly maven.
 
 
  

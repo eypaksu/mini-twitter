@@ -32,7 +32,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             "/v2/api-docs",
             "/webjars/**",
             "/h2-console/*," ,
-            "/index.html"
+            "/index.html",
+            "/api/user/messagesUi/**" //for request from ui
     };
 
     @Override

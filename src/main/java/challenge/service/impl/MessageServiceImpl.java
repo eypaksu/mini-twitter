@@ -7,6 +7,7 @@ import challenge.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.regex.Pattern;
 
 @Service
 @Transactional
+@CrossOrigin(origins = "http://localhost:4200")
 public class MessageServiceImpl implements MessageService {
 
     @Autowired
